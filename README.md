@@ -10,3 +10,6 @@ To run this script, update the code with your own Telegram API credentials (`api
 
 **Execution**
 The script establishes a connection to the Telegram API using the provided credentials. If the user is not authorized, it prompts for a login code sent to the phone number. Once connected, the script iterates through each channel, fetching messages within the specified date range. It handles rate limiting gracefully by pausing execution if a FloodWaitError occurs. The collected messages are then compiled into a pandas DataFrame and saved as a CSV file. The file is stored in the specified directory, and its name includes the start and end dates for easy identification. If no messages are found within the date range, the script will notify the user and skip the CSV creation.
+
+**Results**
+![Uploading image.png…]()
