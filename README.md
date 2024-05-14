@@ -15,7 +15,8 @@ Results include 106k+ telegram messages mined for April 2024
 **translate.py**
 Initial attempts to translate were unsuccessful. Two attempts were made: a local IDE and a cloud IDE both attempts failed and stopped at roughly the same place.
 ![image](https://github.com/Alex-Zeo/GetTelegram/assets/6181715/bd29e82b-76f7-462f-9099-1b0e5a3c1a87)
+
 The tactic of translating ALL rows before saving the final translations may not be a very stable solution with so many rows.
 ![image](https://github.com/Alex-Zeo/GetTelegram/assets/6181715/7afd1e8c-0161-47c7-8f2f-0a92f42ccf09)
 
-This is why a weekly chunking strategy was adopted where a max of 7-day periods would be used as the ingested data to generate translations.
+This is why a weekly chunking strategy was adopted where a max of 7-day periods would be ingested to generate translations.
